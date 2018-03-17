@@ -10,6 +10,10 @@
     <PackageAsExecutable>True</PackageAsExecutable>
     <PackageEntryPoint>FolderColor.ps1</PackageEntryPoint>
     <Bundle>True</Bundle>
+    <ManifestPath>$(OutDir)\$(ProjectName).psd1</ManifestPath>
+    <Author>Niclas Hultberg</Author>
+    <Guid>3c6f4b75-479f-4118-9c29-380cfc9d5102</Guid>
+    <ProcessorArchitecture />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
